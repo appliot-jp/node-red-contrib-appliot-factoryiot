@@ -1,0 +1,31 @@
+{
+  "name": "red-contrib-appliot-factoryiot",
+  "version": "0.0.0",
+  "description": "Appliot Factory-iot Libraries",
+  "main": "lib/factory-iot/factory-iot.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "node-red": {
+    "nodes": {
+      "appliot-factory-iot": "lib/factory-iot/factory-iot.js"
+		}
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/appliot-jp/node-red-contrib-appliot-factoryiot.git"
+  },
+  "keywords": [
+    "Node-RED",
+    "IoT"
+  ],
+  "author": "Appliot, Inc.,",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/appliot-jp/node-red-contrib-appliot-factoryiot/issues"
+  },
+  "homepage": "https://github.com/appliot-jp/node-red-contrib-appliot-factoryiot#readme"
+}
